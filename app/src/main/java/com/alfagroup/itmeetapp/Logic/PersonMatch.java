@@ -1,10 +1,12 @@
-package com.alfagroup.itmeetapp;
+package com.alfagroup.itmeetapp.Logic;
+
+import com.alfagroup.itmeetapp.R;
 
 /**
  * Created by ori dahari on 01/07/2017.
  */
 
-class PersonMatch {
+public class PersonMatch {
 
     private String mEmail,mFname,mLname,mCountry,mDate,mTime;
 

@@ -1,4 +1,4 @@
-package com.alfagroup.itmeetapp;
+package com.alfagroup.itmeetapp.Fragments;
 import android.annotation.SuppressLint;
         import java.util.Calendar;
 
@@ -15,9 +15,9 @@ import android.app.DatePickerDialog;
 
 
 @SuppressLint("ValidFragment")
-public class DateDialog extends DialogFragment implements DatePickerDialog.OnDateSetListener {
+public class DateDialogFragment extends DialogFragment implements DatePickerDialog.OnDateSetListener {
     EditText txtdate;
-    public DateDialog(View view){
+    public DateDialogFragment(View view){
         txtdate=(EditText)view;
     }
     public Dialog onCreateDialog(Bundle savedInstanceState) {

@@ -11,5 +11,5 @@
     android:layout_marginRight="10dp"
     android:focusable="true"
     app:layoutManager="LinearLayoutManager"
-    tools:context="com.alfagroup.itmeetapp.ChosenListFragment"
+    tools:context="com.alfagroup.itmeetapp.Fragments.ChosenListFragment"
     tools:listitem="@layout/fragment_chosen" />

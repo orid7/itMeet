@@ -1,4 +1,4 @@
-package com.alfagroup.itmeetapp;
+package com.alfagroup.itmeetapp.Activities;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -6,6 +6,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.alfagroup.itmeetapp.Fragments.ChooseTimeFragment;
+import com.alfagroup.itmeetapp.Fragments.ChosenListFragment;
+import com.alfagroup.itmeetapp.Fragments.PersonMatchFragment;
+import com.alfagroup.itmeetapp.R;
 
 public class SetMeetActivity extends Fragment {
 

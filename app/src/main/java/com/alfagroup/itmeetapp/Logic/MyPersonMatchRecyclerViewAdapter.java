@@ -1,4 +1,4 @@
-package com.alfagroup.itmeetapp;
+package com.alfagroup.itmeetapp.Logic;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -8,6 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+
+import com.alfagroup.itmeetapp.Logic.PersonMatch;
+import com.alfagroup.itmeetapp.R;
+
 import java.util.ArrayList;
 
 import static com.alfagroup.itmeetapp.R.id.personCountry;

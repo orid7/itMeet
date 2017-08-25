@@ -5,7 +5,7 @@
     android:background="@color/colorPrimary"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context="com.alfagroup.itmeetapp.ChooseTimeFragment"
+    tools:context="com.alfagroup.itmeetapp.Fragments.ChooseTimeFragment"
     >
 
 

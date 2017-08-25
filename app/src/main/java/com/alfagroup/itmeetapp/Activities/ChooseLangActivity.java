@@ -1,4 +1,4 @@
-package com.alfagroup.itmeetapp;
+package com.alfagroup.itmeetapp.Activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +9,10 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-public class ChooseLang extends AppCompatActivity {
+import com.alfagroup.itmeetapp.Logic.DbHelper;
+import com.alfagroup.itmeetapp.R;
+
+public class ChooseLangActivity extends AppCompatActivity {
 
     String rbLearn;
     String rbTeach;
@@ -49,7 +52,7 @@ public class ChooseLang extends AppCompatActivity {
                 if(validate()){
                    db.addUserLang(rbLearn,rbTeach,getApplicationContext());
                     finish();
-                    startActivity(new Intent(ChooseLang.this, MainActivity.class));
+                    startActivity(new Intent(ChooseLangActivity.this, MainActivity.class));
                     finish();
                 }
             }
