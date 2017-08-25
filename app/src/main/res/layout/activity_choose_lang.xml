@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:orientation="vertical"
-    tools:context="com.alfagroup.itmeetapp.ChooseLang"
+    tools:context="com.alfagroup.itmeetapp.Activities.ChooseLangActivity"
     android:weightSum="1">
 
     <TextView

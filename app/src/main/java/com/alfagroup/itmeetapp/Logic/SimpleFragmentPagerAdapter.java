@@ -1,9 +1,13 @@
-package com.alfagroup.itmeetapp;
+package com.alfagroup.itmeetapp.Logic;
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.util.Log;
+
+import com.alfagroup.itmeetapp.Activities.NextMeetActivity;
+import com.alfagroup.itmeetapp.Activities.SetMeetActivity;
+import com.alfagroup.itmeetapp.R;
 
 /**
  * Created by ori dahari on 22/02/2017.

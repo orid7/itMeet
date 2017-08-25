@@ -1,10 +1,10 @@
-package com.alfagroup.itmeetapp;
+package com.alfagroup.itmeetapp.Logic;
 
 /**
  * Created by ori dahari on 30/06/2017.
  */
 
-class TimeAndDate {
+public class TimeAndDate {
 
 
     private String date;

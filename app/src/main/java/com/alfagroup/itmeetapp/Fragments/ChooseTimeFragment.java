@@ -1,4 +1,4 @@
-package com.alfagroup.itmeetapp;
+package com.alfagroup.itmeetapp.Fragments;
 
 
 import android.os.Bundle;
@@ -10,6 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.alfagroup.itmeetapp.Logic.DbHelper;
+import com.alfagroup.itmeetapp.R;
 
 
 /**

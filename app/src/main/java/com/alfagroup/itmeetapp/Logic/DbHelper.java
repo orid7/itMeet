@@ -1,4 +1,4 @@
-package com.alfagroup.itmeetapp;
+package com.alfagroup.itmeetapp.Logic;
 
 import android.content.ContentValues;
 import android.content.Context;

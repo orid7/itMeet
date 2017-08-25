@@ -1,4 +1,4 @@
-package com.alfagroup.itmeetapp;
+package com.alfagroup.itmeetapp.Activities;
 
 import android.app.FragmentTransaction;
 import android.content.Context;
@@ -10,6 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.alfagroup.itmeetapp.Fragments.DateDialogFragment;
+import com.alfagroup.itmeetapp.Logic.DbHelper;
+import com.alfagroup.itmeetapp.R;
 import com.mukesh.countrypicker.CountryPicker;
 import com.mukesh.countrypicker.CountryPickerListener;
 
@@ -54,7 +57,7 @@ public class MoreDetailsActivity extends AppCompatActivity {
 
             db.addUserDetails(fName,lName,birth,countryString,mContext);
             finish();
-            startActivity(new Intent(MoreDetailsActivity.this, ChooseLang.class));
+            startActivity(new Intent(MoreDetailsActivity.this, ChooseLangActivity.class));
            finish();
         }
 
@@ -100,7 +103,7 @@ public class MoreDetailsActivity extends AppCompatActivity {
         txtDate.setOnFocusChangeListener(new View.OnFocusChangeListener(){
             public void onFocusChange(View view, boolean hasfocus){
                 if(hasfocus){
-                    DateDialog dialog=new DateDialog(view);
+                    DateDialogFragment dialog=new DateDialogFragment(view);
                     FragmentTransaction ft =getFragmentManager().beginTransaction();
                     dialog.show(ft, "DatePicker");
 

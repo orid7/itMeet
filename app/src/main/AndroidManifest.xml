@@ -3,23 +3,24 @@
     package="com.alfagroup.itmeetapp">
 
     <application
+        android:name=".ItMeet"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <uses-permission android:name="android.permission.INTERNET" />
-        <activity android:name="com.alfagroup.itmeetapp.LoginActivity" />
-        <activity android:name="com.alfagroup.itmeetapp.RegisterActivity" />
-        <activity android:name="com.alfagroup.itmeetapp.MainActivity">
+        <activity android:name="com.alfagroup.itmeetapp.Activities.LoginActivity" />
+        <activity android:name="com.alfagroup.itmeetapp.Activities.RegisterActivity" />
+        <activity android:name="com.alfagroup.itmeetapp.Activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.alfagroup.itmeetapp.MoreDetailsActivity" />
-        <activity android:name="com.alfagroup.itmeetapp.ChooseLang" />
+        <activity android:name="com.alfagroup.itmeetapp.Activities.MoreDetailsActivity" />
+        <activity android:name="com.alfagroup.itmeetapp.Activities.ChooseLangActivity" />
 
     </application>
 

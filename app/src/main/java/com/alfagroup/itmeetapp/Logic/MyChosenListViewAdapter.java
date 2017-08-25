@@ -1,4 +1,4 @@
-package com.alfagroup.itmeetapp;
+package com.alfagroup.itmeetapp.Logic;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -11,6 +11,13 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import com.alfagroup.itmeetapp.Fragments.ChosenListFragment;
+import com.alfagroup.itmeetapp.Fragments.PersonMatchFragment;
+import com.alfagroup.itmeetapp.Logic.DbHelper;
+import com.alfagroup.itmeetapp.Logic.TimeAndDate;
+import com.alfagroup.itmeetapp.R;
+
 import java.util.ArrayList;
 
 
