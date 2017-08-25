@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">ItMeet</string>
+    <string name="new_user">New user?</string>
+    <string name="add_more_details_to_your_profile">Add more details to your profile</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="choose_date_of_birth">Choose Date of birth</string>
+    <string name="choose_country">Choose country</string>
+    <string name="choose_learn_language">Choose learn language</string>
+    <string name="choose_teaching_language">Choose teaching language:</string>
+    <string name="Set_meet">Set A meeting</string>
+    <string name="next_meet">Next meeting</string>
+    <string name="your_next_meeting">Your next meeting:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_date_and_time">Choose Date and Time:</string>
+
+    <string-array name="time_array">
+        <item>TIME</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="amPm_array">
+        <item>PM</item>
+        <item>AM</item>
+
+    </string-array>
+    <string-array name="date_array">
+        <item>DATE</item>
+        <item>1.8</item>
+        <item>2.8</item>
+        <item>3.8</item>
+        <item>4.8</item>
+        <item>5.8</item>
+        <item>6.8</item>
+        <item>7.8</item>
+        <item>8.8</item>
+        <item>9.8</item>
+    </string-array>
+
+</resources>

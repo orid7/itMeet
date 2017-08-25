@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.alfagroup.itmeetapp.ChooseLang"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/chooseLearn"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:gravity="center_vertical"
+        android:text="@string/choose_learn_language"
+        tools:gravity="center_vertical|center_horizontal"
+        android:textSize="23sp"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/learnGroup">
+
+    <RadioButton
+        android:id="@+id/rBLearnHeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hebrew" />
+
+    <RadioButton
+        android:id="@+id/rBLearnEng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English" />
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/chooseTeach"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:gravity="center_vertical"
+        android:text="@string/choose_teaching_language"
+        tools:gravity="center_vertical|center_horizontal"
+        android:textSize="23sp"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/teachGroup">
+    <RadioButton
+        android:id="@+id/rBTeachHeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hebrew" />
+
+    <RadioButton
+        android:id="@+id/rBTeachEng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English" />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnFinishChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+</LinearLayout>

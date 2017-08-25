@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.alfagroup.itmeetapp.MoreDetailsActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:gravity="center_vertical"
+        android:text="@string/add_more_details_to_your_profile"
+        tools:gravity="center_vertical|center_horizontal"
+        android:textSize="23sp"
+        android:padding="20dp"
+        android:textColor="@color/white"
+         />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="142dp"
+        android:layout_height="106dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:elevation="0dp"
+        android:padding="10dp"
+        app:srcCompat="@mipmap/ic_launcher"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:id="@+id/etFname"
+        android:hint="@string/first_name"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:id="@+id/etLname"
+        android:hint="@string/last_name"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:singleLine="true"
+        android:id="@+id/etDate"
+        android:hint="@string/choose_date_of_birth"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:id="@+id/chooseCountry"
+        android:hint="@string/choose_country"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnNextDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+</LinearLayout>

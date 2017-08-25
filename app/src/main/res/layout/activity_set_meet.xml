@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+    <FrameLayout
+        android:id="@+id/placeholderTimeOpt"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_margin="5dp"
+        android:layout_height="140dp"/>
+
+    <FrameLayout
+        android:id="@+id/placeholderTimeChoose"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:background="@color/colorAccent"
+        android:layout_height="140dp"
+        android:layout_weight="3" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/placeholderMatching"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
